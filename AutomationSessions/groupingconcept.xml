@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testNGFramework">
+  <test name="grouping_concepts_printing">
+  <groups>
+  <run>
+  <include name="Y"></include>
+  </run>
+  </groups>
+  <classes>
+  <class name="testNGFramework.groupingconcepts"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
