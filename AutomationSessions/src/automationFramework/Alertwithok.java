@@ -18,6 +18,7 @@ public class Alertwithok {
 		Alert aler = driver.switchTo().alert();
 		String Jagan = aler.getText();
 		System.out.println(Jagan);
+		System.out.println("lamu");
 		aler.accept();
 		
 				
